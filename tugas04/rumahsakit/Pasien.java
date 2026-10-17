@@ -9,7 +9,7 @@ public class Pasien {
 
     public Pasien(String noRekamMedis, String nama) {
         this.noRekamMedis = noRekamMedis;
-        this.nama = nama;
+    this.nama = nama;
         this.riwayatKonsultasi = new ArrayList<Konsultasi>();
     }
 

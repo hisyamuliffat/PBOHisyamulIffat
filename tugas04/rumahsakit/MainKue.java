@@ -6,7 +6,9 @@ public class MainKue {
         Kue kue1 = new Kue("K01", "Kue Lapis", "Cokelat", 25000);
         Kue kue2 = new Kue("K02", "Brownies", "Keju", 35000);
 
-     
+        kue1.setNamaKue("Lapis Beras");
+        
+      
         DetailPesanan detail1 = new DetailPesanan(kue1, 2);
         DetailPesanan detail2 = new DetailPesanan(kue2, 1);
 

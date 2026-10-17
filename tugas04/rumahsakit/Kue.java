@@ -32,4 +32,9 @@ public class Kue {
     public String getDetailKue() {
         return namaKue + " (" + rasa + ") - Rp " + harga;
     }
+
+    public String setNamaKue(String namaKue) {
+        this.namaKue = namaKue;
+        return namaKue;
+    }
 }
